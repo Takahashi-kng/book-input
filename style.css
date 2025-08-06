@@ -1,0 +1,83 @@
+body    {font-family: 'メイリオ','Hiragino Kaku Gothic Pro',sans-serif;
+        background-color: #edede3;
+        margin: 0}
+
+h1      {font-size: 38px;
+        margin-top: 0;
+        margin-bottom: 0}
+
+a:hover {color: #ff8800}
+
+aside   {border: solid 2px #d6c588;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: #edede3;
+        margin-top: 0}
+
+aside h1  {font-family: 'chango',cursive;
+          font-size: 18px;
+          color: #c39f4a;
+          border-bottom: dotted 1px #c39f4a}
+
+aside a  {color: #000000;
+          text-decoration: none}
+
+p       {line-height: 1.5}
+
+header  {background-color: #ffffff;
+        border-bottom: solid 1px #aaaaaa;
+        margin-bottom: 30px;
+        box-shadow: 0 5px 8px #aaaaaa;
+        padding: 5px}
+
+article.title-top
+        {background-color: #ffffff;
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        border: groove 10px #aaaaaa;
+        padding: 30px;
+        box-sizing: border-box;
+        margin-bottom: 15px}
+
+article.title-top h1
+        {text-shadow: 3px 3px #aaaaaa}
+
+footer  {width: 900px;
+        margin-left: auto;
+        margin-right: auto}
+
+article.middle
+        {background-color: #ffffff;
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        border: solid 3px #aaaaaa;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-bottom: 15px;
+        box-shadow: 2px 2px 4px #aaaaaa;
+        border-radius: 20px}
+
+#posts article a {color: #000000;
+                  text-decoration: none;
+                  display: block;
+                  overflow: hidden;
+                  padding: 20px}
+
+#posts article a:hover  {background-color: #ffe792;
+                        border-radius: 20px}
+
+#posts article    {padding: 0}
+
+.boxA:after   {content: "";
+              display: block;
+              clear:both}
+
+.box1         {float: left;
+              width: 20%;
+              padding: 20px;
+              box-sizing: border-box}
+
+.box2         {float: left;
+              width: 80%}

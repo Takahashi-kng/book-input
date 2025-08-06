@@ -1,0 +1,21 @@
+body    {font-family: 'メイリオ','Hiragino Kaku Gothic Pro',sans-serif;
+        background-color: #edede3;
+        margin: 0}
+
+h1      {font-size: 38px;
+        margin-top: 0;
+        margin-bottom: 0}
+
+p       {line-height: 1.5}
+
+header  {border-left: solid 20px blue;
+        border-bottom: solid 1px #aaaaaa;
+        margin-bottom: 30px;
+        box-shadow: 0 5px 8px #aaaaaa;
+        padding: 5px}
+
+.boxA:after   {content: "";
+              display: block;
+              clear:both;
+              margin-top: 40px;
+              margin-bottom: 40px}
