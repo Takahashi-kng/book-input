@@ -7,7 +7,7 @@
   機能2：記録した本を一覧表示<br>
   機能3：記録した本の削除選択<br>
 
-URLでサーバー経由で「a_index.php」を検索いただき<br>
+URLにてサーバー経由で「a_index.php」を検索いただき<br>
 ・トップページ「page1.php」(機能2)<br>
 ・新規追加ページ「input-form.php」(機能1)<br>
 ・記録の削除ページ「database_check.php」(機能3)<br>
