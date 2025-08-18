@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
   <title>本の保管</title>
-  <link rel="stylesheet" href="site-map.css">
+  <link rel="stylesheet" href="input-form.css">
 </head>
 <body>
   <header>
@@ -12,7 +12,7 @@
 
 <form class="plus" method="post" action="database_check.php">
 
-<h2>削除した項目にチェックを入れ、[削除]を押してください。</h2>
+<h2>項目にチェックを入れ、[削除]を押してください。</h2>
 
 <?php
   $s=new PDO("mysql:host=localhost;dbname=db1","root","root");
